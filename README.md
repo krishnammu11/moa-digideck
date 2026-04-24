@@ -3,12 +3,18 @@
 A Digideck-style interactive sales presentation for Mall of America built for prospective tenants, sponsors, and event partners.
 
 ## Live Demo
-[View Live Site] https://moa-digideck-one.vercel.app/
+[View Live Site] (https://moa-digideck-one.vercel.app/)
 
 ## Tech Stack
 - React.js + Vite
 - Tailwind CSS
 - Framer Motion
+
+##  Features
+- Slide-based interactive navigation
+- Smooth animations using Framer Motion
+- Keyboard, arrow, and side navigation controls
+- Video-based hero section
 
 ## Navigation
 - Click side dots to jump to any slide
