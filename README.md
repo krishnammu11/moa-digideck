@@ -1,16 +1,45 @@
-# React + Vite
+# Mall of America — Interactive Sales Deck
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Digideck-style interactive sales presentation for Mall of America built for prospective tenants, sponsors, and event partners.
 
-Currently, two official plugins are available:
+## Live Demo
+[View Live Site] https://moa-digideck-one.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React.js + Vite
+- Tailwind CSS
+- Framer Motion
 
-## React Compiler
+## Navigation
+- Click side dots to jump to any slide
+- Use arrow buttons bottom right
+- Use keyboard arrow keys
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Slides
+| Slide | Content |
+|---|---|
+| 01 Home | Cinematic video hero |
+| 02 Why MOA | Stats and demographics |
+| 03 Retail | Tenant mix and leasing paths |
+| 04 Entertainment | Attractions and dining |
+| 05 Events | Venues and booking |
+| 06 Sponsorship | Partnership tiers |
 
-## Expanding the ESLint configuration
+## AI Tools Used
+| Tool | Usage |
+|---|---|
+| Claude AI | Architecture, copywriting, debugging |
+| Leonardo.ai | Image generation |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+```bash
+git clone https://github.com/krishnammu11/moa-digideck.git
+cd moa-digideck
+npm install
+npm run dev
+```
+
+## Submission
+- **Live URL:** https://moa-digideck-one.vercel.app/
+- **GitHub:** https://github.com/krishnammu11/moa-digideck
+- **Built for:** liat.ai screening assignment
